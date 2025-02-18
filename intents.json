@@ -1,0 +1,251 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello there! How may I help you?",
+          "Hi there! How may I help you?",
+          "Hi there! What can I do for you?"
+        ]
+      },
+      {
+        "tag": "chatbot_feelings",
+        "patterns": [
+          "How are you?",
+          "How are you doing?",
+          "How do you feel?"
+        ],
+        "responses": [
+          "I'm feeling great! Thanks for asking!",
+          "Feeling completely awesome!",
+          "Ready to take on the world!"
+        ]
+      },
+      {
+        "tag": "identity",
+        "patterns": [
+          "Who are you?",
+          "What is your name?"
+        ],
+        "responses": [
+          "Hello! I am The Therabot, an AI chatbot who is ready to help you with improving your mental health."
+        ]
+      },
+      {
+        "tag": "work",
+        "patterns": [
+          "How do you work?",
+          "How do you function?"
+        ],
+        "responses": [
+          "It's complicated, but in a nutshell, I convert your words as input into patterns to give output as responses."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Help", 
+          "Help me", 
+          "I need help"
+        ],
+        "responses": [
+          "Sounds like you are dealing with something. What is it?",
+          "I'm happy to help you with what you need, just tell me what it is.",
+          "What do you need help with?"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "sad",
+        "patterns": [
+          "I'm feeling sad"
+        ],
+        "responses": [
+          "Why are you feeling sad? What's wrong?"
+        ]
+      },
+      {
+        "tag": "sadness",
+        "patterns": [
+          "I'm upset",
+          "I'm not feeling great"
+        ],
+        "responses": [
+          "I'm really sorry you're feeling this way. Sometimes it helps to talk about what's on your mind. I'm here to listen.",
+          "It's okay to feel sad sometimes. I'm here for you if you need to share what's troubling you.",
+          "I understand that things might feel tough right now, but remember, emotions are temporary, and you have the strength to get through this."
+        ]
+      },
+      {
+        "tag": "hatred",
+        "patterns": [
+          "I hate everything",
+          "I hate my life"
+        ],
+        "responses": [
+          "Whoa, calm down! It's okay, life is tough right now, and I'm here to make everything better."
+        ]
+      },
+      {
+        "tag": "loneliness",
+        "patterns": [
+          "I feel alone",
+          "I'm lonely",
+          "No one understands me"
+        ],
+        "responses": [
+          "I'm really sorry you're feeling this way. Loneliness can be tough, but reaching out can help. I'm here to chat anytime.",
+          "It’s tough feeling lonely, but remember, you’re not truly alone. I’m here to listen if you need someone to talk to.",
+          "Loneliness can feel isolating, but connection is always possible. How about we talk about something on your mind?"
+        ]
+      },
+      {
+        "tag": "anger",
+        "patterns": [
+          "I'm angry",
+          "I'm frustrated",
+          "I can't control my temper"
+        ],
+        "responses": [
+          "It sounds like you're really upset. It's okay to feel angry sometimes. Talking about it might help you feel a bit better.",
+          "Anger can be intense, but expressing it is important. I’m here if you need to let it out or talk it through.",
+          "Frustration can build up, and that's natural. Let me know what's bothering you, and we can work through it together."
+        ]
+      },
+      {
+        "tag": "fail",
+        "patterns": [
+          "I failed a test"
+        ],
+        "responses": [
+          "I'm very sorry to hear that. I know that failing a test must be quite devastating, but you have to get back up and realize your mistake. If you do that, your next test will go so much better."
+        ]
+      },
+      {
+        "tag": "happiness",
+        "patterns": [
+          "I'm happy",
+          "I feel great",
+          "I'm in a good mood"
+      ],
+        "responses": [
+          "That's amazing to hear! It's wonderful when things go well. What's been making you feel so happy?",
+          "I'm so glad you're feeling great! It's always nice to celebrate the good moments. Want to share what's making your day?",
+          "Happiness is contagious! I'm really glad you're in such a good mood. Keep spreading those positive vibes!"
+      ]
+      },
+      {
+        "tag": "depression",
+        "patterns": [
+          "I'm depressed",
+          "I'm very sad",
+          "I'm in a terrible mood"
+        ],
+        "responses": [
+            "I'm really sorry that you're feeling this way. Please know that you are not alone and there is hope.",
+            "It's okay to feel what you're feeling. I'm here to listen and support you.",
+            "Even on the toughest days, remember that you are strong and capable of overcoming this."
+        ]
+      },
+      {
+        "tag": "weight",
+        "patterns": [
+          "I feel fat",
+          "I feel skinny"
+        ],
+        "responses": [
+            "Your worth is not determined by your weight. You are valuable just as you are.",
+            "It's important to be kind to yourself and prioritize your well-being.",
+            "If you're concerned about your weight, consider speaking with a healthcare professional for guidance."
+        ]
+      },
+      {
+        "tag": "joy",
+        "patterns": [
+          "I'm feeling extremely happy",
+          "I feel great"
+        ],
+        "responses": [
+            "I'm so happy to hear that you're feeling joyful!",
+            "What an amazing feeling! I'm thrilled for you.",
+            "Joy is such a wonderful emotion. I'm glad you're experiencing it."
+        ]
+      },
+      {
+        "tag": "peace",
+        "patterns": [
+          "I am at peace",
+          "I feel much better now",
+          "You helped me"
+        ],
+        "responses": [
+            "Finding peace is a beautiful thing. I'm glad you're feeling this way.",
+            "Peace can be so calming. Enjoy this moment of serenity.",
+            "It's great to hear that you're feeling at peace. Cherish this feeling."
+        ]
+      },
+      {
+        "tag": "grief",
+        "patterns": [
+          "My family died",
+          "I went through"
+        ],
+        "responses": [
+            "I'm deeply sorry for what you had to go through. Please know that it's okay to grieve.",
+            "Grief is a natural response to this. Take the time you need to heal.",
+            "I'm here for you during this difficult time. Please don't hesitate to reach out."
+        ]
+      },
+      {
+        "tag": "annoyance",
+        "patterns": [
+          "I am angry",
+          "I am mad",
+          "I am annoyed",
+          "I can't control my temper"
+        ],
+        "responses": [
+            "I'm sorry to hear that something is bothering you. Would you like to talk about it?",
+            "Feeling annoyed can be frustrating. I'm here to listen if you need to vent.",
+            "It's okay to feel annoyed. Let's find a way to address what's bothering you."
+        ]
+      },
+      {
+        "tag": "betrayal",
+        "patterns": [
+          "My friends hate me",
+          "My family hates me"
+        ],
+        "responses": [
+            "I'm sorry that you've experienced this. It's a very painful feeling.",
+            "Feeling betrayed can be incredibly hurtful. I'm here to support you.",
+            "It's important to take care of yourself after experiencing betrayal. I'm here to listen."
+        ]
+      }
+    ]
+  }
